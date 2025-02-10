@@ -33,7 +33,7 @@ namespace Wk4Ex2
                 }
             }
             retVal = total / count; //calculate final grade
-            return retVal;
+            return retVal; //return final value
         }
 
         public static double calculateMidterms()
@@ -61,7 +61,7 @@ namespace Wk4Ex2
                 }
             }
             retVal = total / count; //calculate final grade
-            return retVal;
+            return retVal; //return final value
         }
 
         public static double calculateFinals()
@@ -89,7 +89,7 @@ namespace Wk4Ex2
                 }
             }
             retVal = total / count; //calculate final grade
-            return retVal;
+            return retVal; //return final value
         }
 
         public static double calculateFinalGrade(double assignments, double midterm, double final)
@@ -99,7 +99,7 @@ namespace Wk4Ex2
             double finalGrade = 0;
 
             finalGrade = ((assignments * 0.40) + (midterm * 0.30) + (final * 0.30)); //calculate finalgrade
-            retVal = finalGrade;
+            retVal = finalGrade; //assign final grade to return value
 
             return retVal; //return final grade to be used
         }
